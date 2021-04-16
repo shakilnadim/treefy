@@ -17,8 +17,10 @@
         "laravel/framework": "*"
     },
     "extra": {
-        "aliases": {
-            "Treefy": "ShakilNadim\\Treefy\\Treefy"
+        "laravel": {
+            "aliases": {
+                "Treefy": "ShakilNadim\\Treefy\\Treefy"
+            }
         }
     }
 }
