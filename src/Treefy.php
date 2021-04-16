@@ -36,12 +36,12 @@ class Treefy
     }
 
 
-    public function addRoot(Object $node) : void {
+    private function addRoot(Object $node) : void {
         $this->trees[] = $node;
     }
 
 
-    public function addToChildren(Object $node, string $parentKey) : void {
+    private function addToChildren(Object $node, string $parentKey) : void {
         $this->children[$node[$parentKey]][] = $node;
     }
 
