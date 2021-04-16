@@ -1,6 +1,7 @@
 {
     "name": "shakilnadim/treefy",
-    "description": "It is a package to convert an array of self related data to an array of trees based on the relation.",
+    "description": "It is a laravel package to convert an array of self related data to an array of trees based on the relation.",
+    "license": "MIT",
     "authors": [
         {
             "name": "Nadim Shakil",
