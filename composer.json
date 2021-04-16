@@ -14,7 +14,7 @@
         }
     },
     "require": {
-        "laravel/framework": "^5.6"
+        "laravel/framework": "*"
     },
     "extra": {
         "aliases": {
